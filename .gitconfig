@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = ZhuravlevaM
+	email = zhuravleva1990@gmail.com
+[core]
+	editor = nano
